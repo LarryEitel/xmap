@@ -2,6 +2,7 @@
 .git
 *.pyc
 *.pyo
+*.db
 .svn
 .installed.cfg
 .mr.developer.cfg
@@ -19,3 +20,7 @@ build
 .pydevproject*
 *.db
 .settings
+
+src
+site_media
+local_settings.py
