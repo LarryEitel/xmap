@@ -11,9 +11,9 @@ set :ssh_options, { :user => "www-data", :forward_agent => true }
 set :deploy_via, :remote_cache
 set :deploy_to, "/srv/x/#{application}"
 
-role :web, "xchg.com:53"
-role :app, "xchg.com:53"
-role :db,  "xmap.com:53", :primary => true
+role :web, "map.xchg.com:53"
+role :app, "map.xchg.com:53"
+role :db,  "map.xmap.com:53", :primary => true
 
 
 def django_manage(cmd, options={})
