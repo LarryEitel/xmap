@@ -129,6 +129,8 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'gunicorn',
     #'xmap.apps.home',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
