@@ -1,7 +1,6 @@
 import os
 from setuptools import setup, find_packages
 
-version = __import__('djangoprojectrecipe').__version__
 
 def read_file(name):
     return open(os.path.join(os.path.dirname(__file__),
@@ -11,7 +10,7 @@ readme = read_file('README.rst')
 changes = read_file('HISTORY.rst')
 
 setup(name='djangoprojectrecipe',
-      version=version,
+      version="0.1",
       description="simple buildout recipe for django projects",
       long_description='\n\n'.join([readme, changes]),
       classifiers=[
